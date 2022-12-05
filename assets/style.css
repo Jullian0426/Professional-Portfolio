@@ -51,26 +51,34 @@ header nav ul li {
     margin-left: 40px;
 }
 
-.about {    
+.content {    
     display: flex;
     flex-wrap: nowrap;
     margin-top: 40px;
     color: #415b5e;
 }
 
-.about h2 {
-    padding: 40px 10px 0px 50px;
+.about {
+    padding: 40px 10px 0px 105px;
     height: auto;
+    width: 245px;
     border-right: 4px solid #4b5657;
     font-size: 40px;
 }
 
-.about div {
+.content div {
     line-height: 1.5;
     width: 85%;
     padding: 20px 0px 0px 30px;
 }
 
-.about div p {
+.content div p {
     margin: 10px 0px 10px 0px;
+}
+
+.work {
+    padding: 40px 10px 0px 128px;
+    height: auto;
+    border-right: 4px solid #4b5657;
+    font-size: 40px;
 }
