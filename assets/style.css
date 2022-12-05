@@ -40,10 +40,6 @@ header nav {
     margin-right: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
 header nav ul li {
     text-decoration: underline;
     font-size: 30px;
@@ -58,12 +54,15 @@ header nav ul li {
     color: #415b5e;
 }
 
-.about {
-    padding: 40px 10px 0px 105px;
+h2 {
     height: auto;
-    width: 245px;
     border-right: 4px solid #4b5657;
     font-size: 40px;
+}
+
+.about {
+    padding: 40px 10px 0px 105px;
+    width: 245px;
 }
 
 .content div {
@@ -78,15 +77,16 @@ header nav ul li {
 
 .work {
     padding: 40px 10px 0px 128px;
-    height: auto;
-    border-right: 4px solid #4b5657;
-    font-size: 40px;
 }
 
 .work-images img {
     margin: 0px 40px 40px 0px;
     border: 6px solid #4b5657;
     box-shadow: 10px 5px 5px #657274;
+}
+
+.prework {
+    width: 1000px;
 }
 
 .prework-caption {
@@ -101,8 +101,16 @@ header nav ul li {
     padding: 6px 6px 6px 60px;
 }
 
-.prework {
-    width: 1000px;
+.contact {
+    padding: 40px 10px 20px 10px;
+    margin-bottom: 40px;
+}
+
+.content ul li {
+    text-decoration: underline;
+    font-size: 30px;
+    display: inline-block;
+    margin: 40px 0px 10px 40px;
 }
 
 @media screen and (max-width: 1320px) {
