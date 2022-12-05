@@ -47,6 +47,7 @@ header nav ul li {
     margin-left: 40px;
 }
 
+/*Turn content sections into flexboxes and position headings to the left*/
 .content {    
     display: flex;
     flex-wrap: nowrap;
@@ -85,10 +86,12 @@ h2 {
     box-shadow: 10px 5px 5px #657274;
 }
 
+/*Size when screen is larger than 1320px*/
 .prework {
     width: 1000px;
 }
 
+/*Create caption that hangs over the image*/
 .prework-caption {
     position: relative;
     bottom: 127px;
@@ -113,6 +116,7 @@ h2 {
     margin: 40px 0px 10px 40px;
 }
 
+/*Decrease image size when screen size is smaller*/
 @media screen and (max-width: 1320px) {
     .prework {
       width: 600px;
