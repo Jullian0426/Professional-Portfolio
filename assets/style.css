@@ -82,3 +82,31 @@ header nav ul li {
     border-right: 4px solid #4b5657;
     font-size: 40px;
 }
+
+.work-images img {
+    margin: 0px 40px 40px 0px;
+    border: 6px solid #4b5657;
+    box-shadow: 10px 5px 5px #657274;
+}
+
+.prework-caption {
+    position: relative;
+    bottom: 127px;
+    left: 6px;
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+    width: 380px;
+    background-color: #4b5657;
+    padding: 6px 6px 6px 60px;
+}
+
+.prework {
+    width: 1000px;
+}
+
+@media screen and (max-width: 1320px) {
+    .prework {
+      width: 600px;
+    }
+  }
