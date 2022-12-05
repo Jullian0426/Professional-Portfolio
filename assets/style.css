@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -12,7 +13,6 @@ a {
 /*Style and position header*/
 header {
     padding: 50px;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #4b5657;
 }
 
@@ -31,6 +31,7 @@ header img {
     top: 18px;
     width: 80px;
     height: auto;
+    border-radius: 10px;
 }
 
 header nav {
@@ -48,4 +49,28 @@ header nav ul li {
     font-size: 30px;
     display: inline-block;
     margin-left: 40px;
+}
+
+.about {    
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+    color: #415b5e;
+}
+
+.about h2 {
+    padding: 40px 10px 0px 50px;
+    height: auto;
+    border-right: 4px solid #4b5657;
+    font-size: 40px;
+}
+
+.about div {
+    line-height: 1.5;
+    width: 85%;
+    padding: 20px 0px 0px 30px;
+}
+
+.about div p {
+    margin: 10px 0px 10px 0px;
 }
