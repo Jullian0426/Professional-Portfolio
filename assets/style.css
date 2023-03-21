@@ -52,6 +52,10 @@ header nav ul li {
     margin-left: 40px;
 }
 
+.text {
+    font-size: 20px;
+}
+
 /*Turn content sections into flexboxes and position headings to the left*/
 .content {    
     display: flex;
